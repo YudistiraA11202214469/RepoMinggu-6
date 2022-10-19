@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Layout dengan Elemen Semantik</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/image/gambar1.webp" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Hallo Friend</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="home" class="profile card">
+          <h2>Home</h2>
+          <header>
+            <figure>
+              <img src="assets/image/foto.JPG" alt="" />
+            </figure>
+            <h3 align="center"></h3>
+          </header>
+
+          <section>
+            <div style="max-width: 600px; margin: 3em auto">
+              <table border="1" width="100%">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Pengalaman</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <ul>
+                        <li>Mampu mengamati sebuah peluang dengan cermat</li>
+                        <li>berkarakteristik leadership man</li>
+                        <li>Menguasai bahasa pemrograman</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Trader sukses di usia muda</li>
+                        <li>Bekerja di berbagai usaha start up</li>
+                        <li>Developer Gojek</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </article>
+
+        <article id="contactme" class="card">
+          <div>
+            <h2>Contact Me</h2>
+            <form>
+              <li><i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp : 085751474217</li>
+              <li>Email: ydztrsaputra@gmail.com</li>
+              
+
+              <label for="email">Email</label><br />
+              <input type="email" name="email" placeholder="alamat email" required />
+              <br />
+              <label for="message">Pesan</label><br />
+              <textarea name="message" placeholder="Tulis pesan anda..." rows="10" cols="100" required></textarea>
+              <br />
+              <br />
+              <input type="submit" value="Kirim" />
+            </form>
+          </div>
+        </article>
+
+
+    <footer>
+      <p>|Yudistira Saputra|</p>
+    </footer>
+  </body>
+</html>
